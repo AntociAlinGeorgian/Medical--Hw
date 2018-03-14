@@ -614,3 +614,77 @@ header .title .title-content .header-btn a {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 70px 0;
 }
+
+/* PRICING PLANS */
+.pricing .pricing-cont {
+  margin-top: 50px;
+}
+
+.pricing .price-item {
+  width: 32%;
+  display: inline-block;
+  text-align: center;
+  margin-right: 12px;
+  border-left: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb;
+}
+
+.pricing .price-item .title {
+  background-color: #273e50;
+  padding: 15px 0;
+}
+
+.pricing .price-item .title h1 {
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.pricing .price-item .info {
+  margin-top: 30px;
+
+}
+
+.pricing .price-item .info h3 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #273e50;
+  margin-bottom: 30px;
+}
+
+.pricing .price-item .info h3 span {
+  font-size: 50px;
+  font-weight: 700;
+  color: #273e50;
+}
+
+.pricing .price-item .info p {
+  padding-bottom: 15px;
+  font-size: 15px;
+  color: #6A6969;
+}
+
+.pricing .price-item .order-now {
+  background-color: #273e50;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+.pricing .price-item .order-now p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.pricing .price-item.best .title,
+.pricing .price-item.best .order-now {
+  background-color: rgba(0, 123, 182, 1);
+}
+
+.pricing .price-item.best .info h3,
+.pricing .price-item.best .info h3 span {
+  color: rgba(0, 123, 182, 1);
+}
