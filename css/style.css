@@ -718,3 +718,81 @@ header .title .title-content .header-btn a {
   font-weight: 500;
   margin-top: 20px;
 }
+
+/* BLOG */
+.blog {
+
+}
+
+.blog .blog-content {
+  margin-top: 20px;
+}
+
+.blog .blog-item {
+  width: 32%;
+  margin-right: 14px;
+  display: inline-block;
+}
+
+.blog .blog-item .blog-img img {
+  width: 100%;
+}
+
+.blog .blog-item .blog-meta {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.blog .blog-item .blog-meta .posted-by,
+.blog .blog-item .blog-meta .date,
+.blog .blog-item .blog-meta p {
+  display: inline-block;
+}
+
+.blog .blog-item .blog-meta p {
+  font-size: 15px;
+  font-weight: 700;
+  color: #273e50;
+}
+
+.blog .blog-item .blog-meta .date {
+  margin-left: 10px;
+}
+
+.blog .blog-item h1 {
+  color: #273e50;
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.blog .blog-item p {
+  font-size: 15px;
+  color: #6A6969;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  transition: all .3s ease-in-out;
+}
+
+.blog .blog-item a.app-btn {
+  background: #273e50;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 30px;
+  transition: all .3s ease-in-out;
+}
+
+.blog .blog-item:hover h1 {
+  color: rgba(0, 123, 182, 1);
+
+}
+
+.blog .blog-item:hover a.app-btn {
+  background-color: rgba(0, 123, 182, 1);
+}
