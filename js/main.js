@@ -8,6 +8,15 @@ $(document).ready(function() {
     mouseDrag: true
   });
 
+  $('.popup-video').magnificPopup({
+    disableOn: 700,
+    type: 'iframe',
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
+    fixContentPos: false
+  });
+
 
 
   /* ISOTOPE

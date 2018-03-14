@@ -688,3 +688,33 @@ header .title .title-content .header-btn a {
 .pricing .price-item.best .info h3 span {
   color: rgba(0, 123, 182, 1);
 }
+
+/* VIDEO */
+.video {
+  background: url('../imgs/video-bg.jpg') center center no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  padding: 120px 0;
+}
+
+.video .video-content {
+  text-align: center;
+  position: relative;
+}
+
+.video::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.video .video-content h1 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 20px;
+}
