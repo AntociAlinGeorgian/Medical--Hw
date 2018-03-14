@@ -588,6 +588,29 @@ header .title .title-content .header-btn a {
   margin-bottom: 5px;
 }
 
-.portfolio .port-content .port-item .overlay {
+/* FACTS */
+.facts {
+  background: url('../imgs/fact.jpg') center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
 
+.facts .col-1 {
+  display: inline-block;
+  width: 24.75%;
+  text-align: center;
+}
+
+.facts .col-1 h1 {
+  font-size: 50px;
+}
+
+.facts .col-1 h3 {
+  font-weight: 300;
+}
+
+.facts .overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 70px 0;
 }
