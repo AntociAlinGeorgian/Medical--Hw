@@ -884,10 +884,11 @@ header .title .title-content .header-btn a {
 
 .get-in-touch .app-content .map-area {
   position: absolute;
-    right: -20%;
+    right: -12.5%;
     top: 45px;
-    width: 60%;
+    width: 52%;
     height: 700px;
+    overflow: hidden;
 }
 
 
@@ -896,7 +897,7 @@ header .title .title-content .header-btn a {
   margin-top: 30%;
   position: relative;
   overflow: hidden;
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 .call-to::before {
@@ -930,4 +931,103 @@ header .title .title-content .header-btn a {
   font-size: 35px;
   font-weight: 900;
   color: #007bb6;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #273e50;
+}
+
+.footer .brand,
+.footer .subscribe,
+.footer .contact-us {
+  width: 30%;
+  display: inline-block;
+  margin-right: 35px;
+  color: #fff;
+}
+
+.footer .brand h1 {
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  color: #007bb6;
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.footer .brand p,
+.footer .subscribe p {
+  color: #fff;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.footer .contact-us h1,
+.footer .subscribe h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.footer .contact-us .address p,
+.footer .contact-us .mail p,
+.footer .contact-us .phone p {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+
+
+.footer .subscribe .sub-form {
+  margin-top: 15px;
+}
+
+.footer .subscribe .sub-form input {
+  width: 250px;
+  height: 30px;
+  padding: 3px 10px;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  outline: none;
+  margin-top: 10px;
+}
+
+.footer .subscribe .sub-form input::placeholder {
+  color: #fff;
+}
+
+.footer .subscribe .sub-form input:focus {
+  color: #fff;
+}
+
+footer {
+  padding: 50px 0;
+  background-color: #1e3344;
+  color: #fff;
+  position: relative;
+}
+
+footer .copyright {
+  width: 80%;
+  float: left;
+}
+
+footer .social-icons {
+  width: 20%;
+  float: right;
+}
+
+footer .copyright p {
+  font-size: 15px;
+}
+
+footer .social-icons .icon {
+  font-size: 23px;
+  display: inline-block;
+  padding-right: 20px;
 }
