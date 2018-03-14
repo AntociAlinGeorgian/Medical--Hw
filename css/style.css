@@ -1,0 +1,590 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Raleway:900');
+
+/* General */
+body,
+html,
+a,
+h1,h2,h3,h4,h5,h6,
+ul,li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Open Sans';
+}
+
+/* predefined classes */
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.sections {
+  padding: 70px 0;
+}
+
+
+/* title decoration */
+.title-line {
+  position: relative;
+  width: 60px;
+  height: 2px;
+  display: inline-block;
+  margin: 0 auto;
+  background: rgba(0, 123, 182, 1);
+}
+
+/* SECTIONS TITLE */
+.s-title {
+  text-align: center;
+}
+
+.s-title h1 {
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: 'Raleway';
+  color: #273e50;
+  padding-bottom: 15px;
+}
+
+.s-title span {
+  margin-bottom: 3px;
+}
+
+.s-title i {
+  margin: 0 5px;
+}
+
+.s-title .subtitle {
+  padding: 18px 240px;
+}
+
+.s-title .subtitle h3 {
+  font-size: 15px;
+  color: #6A6969;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+/* SECTIONS TITLE END */
+
+/* header */
+header {
+  height: 100vh;
+  background: url('../imgs/header-bg.jpeg')center center  no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* navbar */
+.navbar {
+  background-color:  rgba(0, 123, 182, 0.8);
+  padding: 20px 0 20px;
+}
+
+.navbar .brand span,
+.navbar .nav-links ul li a {
+  color: #fff;
+}
+
+.navbar .nav-links ul li,
+.navbar .brand,
+.navbar .nav-links {
+  display: inline-block;
+}
+
+.navbar .brand span {
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.navbar .nav-links {
+  float: right;
+}
+
+.navbar .nav-links ul li a {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Lato';
+  text-transform: uppercase;
+  letter-spacing: 0;
+  margin-right: 20px;
+  line-height: 45px;
+}
+
+.navbar .nav-links ul li:last-child a{
+  margin-right: 0;
+  padding: 10px 25px;
+  border: 1px solid #fff;
+}
+
+/* header content */
+header .title {
+  margin-top: 10%;
+}
+
+header .title .title-content {
+  width: 60%;
+}
+
+header .title .title-content p {
+  font-size: 60px;
+  font-weight: 300;
+  font-family: 'Open Sans';
+  line-height: 55px;
+  color: #273e50;
+  margin-left: -5px;
+}
+
+header .title .title-content span {
+  text-transform: uppercase;
+  color: rgba(0, 123, 182, 1);
+  font-style: 'Raleway';
+  font-size: 110px;
+  font-weight: 900;
+  line-height: 105px;
+  margin-left: -9px;
+}
+
+header .title .title-content .header-btn {
+  background: rgba(0, 123, 182, 1);
+  width: 200px;
+  margin-top: 10%;
+}
+
+header .title .title-content .header-btn a {
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  font-weight: 600;
+}
+
+
+/* ABOUT US */
+/* ----------------- */
+
+.about-us .auc-cont {
+  padding-top: 50px;
+}
+
+.about-us .auc-cont .left-content {
+  width: 70%;
+  float: left;
+}
+
+
+.about-us .left-content h1 {
+  color: rgba(0, 123, 182, 1);
+  padding-bottom: 20px;
+}
+
+.about-us .left-content .left-subtitle {
+  padding-right: 150px;
+  font-size: 15px;
+  color: #6A6969;
+}
+
+.about-us .left-content .services {
+  padding-top: 30px;
+  width: 100%;
+}
+
+.about-us .left-content .services .first-service,
+.about-us .left-content .services .second-service {
+  width: 50%;
+}
+
+.about-us .left-content .services .second-service {
+  float: right;
+}
+
+.about-us .left-content .services .first-service {
+  float: left;
+}
+
+.about-us .services h1 {
+  padding-top: 10px;
+  color: #273e50;
+}
+
+.about-us .services p {
+  color: #6A6969;
+  font-size: 15px;
+}
+
+.about-us .about-us-btn {
+  background: rgba(0, 123, 182, 1);
+  width: 160px;
+  margin-top: 200px;
+}
+
+.about-us .about-us-btn a {
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  font-weight: 600;
+}
+
+/* right content */
+.about-us .right-content {
+  float: right;
+  width: 30%;
+  display: block;
+  position: relative;
+}
+
+.about-us .right-content img {
+  width: 100%;
+}
+
+.about-us .right-content .overlay {
+  background: rgba(0, 123, 182, 0.8);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.about-us .right-content .overlay .title {
+  padding: 30px 35% 30px 30px;
+}
+
+.about-us .right-content .overlay .title h1 {
+  color: #fff;
+}
+
+.about-us .right-content .timetable {
+  padding: 0 30px 30px 30px;
+}
+
+.about-us .right-content .timetable ul li {
+  color: #fff;
+  padding-bottom: 17px;
+}
+
+.about-us .right-content .timetable .days {
+  float: left;
+}
+
+.about-us .right-content .timetable .hours {
+  float: right;
+}
+
+/* OUR DEPARTMENTS */
+.our-departments {
+  margin-top: 24%;
+  background-color: #f1f1f1;
+}
+
+.our-departments .dept-content {
+  margin-top: 50px;
+}
+
+.our-departments .dept-content .d-item {
+  display: inline-block;
+  background-color: #fff;
+  margin-bottom: 20px;
+  margin-right: 2%;
+  transition: all 0.2s ease-in-out;
+}
+
+.our-departments .dept-content .d-item:hover {
+  background-color: rgba(0, 123, 182, 1);
+  color: #fff;
+}
+
+.our-departments .dept-content .d-item:hover .d-title h1,
+.our-departments .dept-content .d-item:hover .d-title p,
+.our-departments .dept-content .d-item:hover .d-title  {
+  color: #fff;
+}
+
+.our-departments .dept-content .d-item:nth-child(3),
+.our-departments .dept-content .d-item:nth-child(6) {
+  margin-right: 0;
+}
+
+.width-3 {
+  width: 31.7%;
+}
+
+.our-departments .dept-content .d-item .d-title {
+  padding: 20px;
+}
+
+.our-departments .dept-content .d-item .d-title h1 {
+  display: inline-block;
+  padding-left: 15px;
+  color: #273e50;
+}
+
+.our-departments .dept-content .d-item .d-title p {
+  padding-top: 20px;
+  color: #6A6969;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  line-height: 23px;
+}
+
+/* MAKE AN APPOINTMENT */
+.appointment .app-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.appointment .app-img {
+  width: 40%;
+  float: left;
+}
+
+.appointment .app-img img {
+  width: 100%;
+}
+
+.appointment .app-form {
+  display: inline-block;
+  width: 60%;
+  float: right;
+  margin-top: 50px;
+}
+
+.appointment .app-form .app-inp-50 {
+  width: 49%;
+  margin-left: 1%;
+  display: inline-block;
+}
+
+.appointment .app-form .app-inp-50:nth-child(2n){
+  float: right;
+}
+
+.appointment .app-form label {
+  display: block;
+  color: #6a6a6a;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  font-size: 15px;
+}
+
+.appointment .app-form input,
+.appointment .app-form select {
+  width: 95%;
+  height: 35px;
+  border: none;
+  border-bottom: 2px solid #979797;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.appointment .app-form input[type="text"] {
+  font-size: 15px;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  color: #273e50;
+}
+
+.appointment .app-form select {
+  margin-top: 4px;
+}
+
+.appointment .app-form .app-inp-100 {
+  width: 99%;
+  margin-left: 1%;
+}
+
+.appointment .app-form textarea {
+  width: 97%;
+  border: none;
+  border-bottom: 2px solid #979797;
+  outline: none;
+  margin-bottom: 20px;
+  font-family: 'Open Sans';
+  font-size: 15px;
+}
+
+.appointment .app-btn {
+  background: rgba(0, 123, 182, 1);
+  margin-left: 1%;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  font-weight: 600;
+}
+
+
+/* OUR DOCTORS */
+.our-doctors {
+  margin-top: 34%;
+  background-color: #f1f1f1;
+}
+
+.our-doctors .doc-content {
+  margin-top: 30px;
+  padding: 0 50px;
+  padding-left: 0;
+}
+
+.our-doctors .doc-item img {
+
+}
+
+.our-doctors .doc-item {
+  display: block;
+  position: relative;
+}
+
+.our-doctors .doc-item .doc-overlay {
+  background: rgba(0, 123, 182, 0.8);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  transition: all .3s ease-in-out;
+}
+
+.our-doctors .doc-item:hover .doc-overlay {
+  opacity: 1;
+}
+
+.our-doctors .doc-item .doc-overlay {
+  text-align: center;
+  color: #fff;
+}
+
+.our-doctors .doc-item .doc-overlay h1 {
+  margin-top: 70px;
+  font-size: 25px;
+}
+
+.our-doctors .doc-item .doc-overlay h2 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.our-doctors .doc-item .doc-overlay p {
+  margin-top: 25px;
+  padding: 0 15px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.our-doctors .doc-item .social-icons {
+  margin-top: 25px;
+}
+
+.our-doctors .doc-item .social-icons .icon {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.our-doctors .doc-item .social-icons .icon:last-child {
+  padding-right: 0;
+}
+
+.our-doctors .owl-next,
+.our-doctors .owl-prev {
+    color: #fff !important;
+    height: 40px !important;
+    width: 25px !important;
+    font-size: 21px !important;
+    font-family: Lato !important;
+    font-weight: 700 !important;
+    line-height: 35px !important;
+    border-radius: 0 !important;
+    background-color: rgba(0, 123, 182,0.8) !important;
+    position: absolute;
+}
+
+.our-doctors .owl-next {
+  top: 170px;
+  right: 6px;
+}
+
+.our-doctors .owl-prev {
+  top: 170px;
+  left: -43px;
+}
+
+/* PORTFOLIO */
+.portfolio .port-content {
+  margin-top: 30px;
+}
+
+.portfolio .port-content .button-group {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.portfolio .port-content .button-group .button {
+  padding-right: 30px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #273e50;
+}
+
+.portfolio .port-content .button-group .button.is-checked {
+  color: rgba(0, 123, 182,1);
+}
+
+.portfolio .port-content .button-group .button:last-child {
+  padding-right: 0;
+}
+
+.portfolio .port-content .port-item {
+  width: 33%;
+  display: inline-block;
+  position: relative;
+}
+
+.portfolio .port-content .port-item img {
+  width: 100%;
+}
+
+.portfolio .port-content .port-item .overlay {
+  background: rgba(0, 123, 182, 0.8);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s ease-in-out;
+}
+
+.portfolio .port-content .port-item:hover .overlay {
+  opacity: 1;
+}
+
+.portfolio .port-content .port-item .overlay {
+
+}
