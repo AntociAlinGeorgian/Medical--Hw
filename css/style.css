@@ -542,6 +542,7 @@ header .title .title-content .header-btn a {
 
 .portfolio .port-content .button-group .button {
   padding-right: 30px;
+  cursor: pointer;
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -561,6 +562,7 @@ header .title .title-content .header-btn a {
   width: 33%;
   display: inline-block;
   position: relative;
+
 }
 
 .portfolio .port-content .port-item img {
@@ -583,6 +585,7 @@ header .title .title-content .header-btn a {
 
 .portfolio .port-content .port-item:hover .overlay {
   opacity: 1;
+  margin-bottom: 5px;
 }
 
 .portfolio .port-content .port-item .overlay {
